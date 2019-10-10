@@ -1,0 +1,13 @@
+*.o
+*.out
+*.in
+prog
+prog_o
+prog_lb
+generate-unsigned
+generate-small-unsigned
+generate-small-signed
+generate-signed
+generate-input-op
+.DS_Store
+.vscode

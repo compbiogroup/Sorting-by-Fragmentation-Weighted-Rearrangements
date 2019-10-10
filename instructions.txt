@@ -1,0 +1,9 @@
+mkdir inputs
+mkdir output
+make generate-signed
+make generate-unsigned
+bash generate_input.sh
+make generate-input-op
+python3 random_operations_input.py inputs
+make
+nohup python3 run-algs.py 6 inputs/ &
