@@ -1,0 +1,35 @@
+------------
+|  AUTHORS  |
+------------
+- Zanoni Dias <zanoni@ic.unicamp.br>
+- Ulisses Martins Dias <udias@ic.unicamp.br>
+
+Last updated: March 30, 2012
+
+-------------------
+|  REQUIREMENTS  |
+-------------------
+
+The files an installed python distribution, versions 2.5.x or
+2.6.x. We have tested the programs on linux (ubuntu), and mac OSX.
+
+To run this algorithm, download the operations database on https://www.ic.unicamp.br/~zanoni/orientacoes/doutorado/udias/dd2010.zip
+
+-----------
+|  USAGE  |
+-----------
+
+One should provide the permutation as input.
+
+./elias2005.py 5,4,3,2,1
+./dias2010_1_5.py 5,4,3,2,1
+./dias2010_1_375.py 5,4,3,2,1
+
+------------
+|  OUTPUT  |
+------------
+
+<Program_Information> - <Input_permutation> - <Number_of_Transpositions> - <List_of_Transpositions>
+
+* The program elias2005.py does not provide the list of transpositions
+

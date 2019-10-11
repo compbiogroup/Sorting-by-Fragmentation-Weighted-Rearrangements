@@ -1,0 +1,59 @@
+echo "BAFNA_PEVZNER UNSIGNED"
+cd BAFNA_PEVZNER_UNSIGNED
+bash run_tests.sh
+cd ..
+echo "BAFNA_PEVZNER UNSIGNED DONE"
+
+echo "BAFNA_PEVZNER UNSIGNED SMALL"
+cd BAFNA_PEVZNER_UNSIGNED
+bash run_tests_small.sh
+cd ..
+echo "BAFNA_PEVZNER UNSIGNED SMALL DONE"
+
+echo "GRIMM UNSIGNED"
+cd GRIMM_REVERSALS_UNSIGNED
+bash run_grimmlin.sh
+cd ..
+echo "GRIMM UNSIGNED DONE"
+
+echo "GRIMM UNSIGNED SMALL"
+cd GRIMM_REVERSALS_UNSIGNED
+bash run_grimmlin_small.sh
+cd ..
+echo "GRIMM UNSIGNED DONE SMALL"
+
+echo "WALTER UNSIGNED"
+cd WALTER_1998_UNSIGNED
+bash run_tests.sh
+cd ..
+echo "WALTER UNSIGNED DONE"
+
+echo "WALTER UNSIGNED SMALL"
+cd WALTER_1998_UNSIGNED
+bash run_tests_small.sh
+cd ..
+echo "WALTER UNSIGNED SMALL DONE"
+
+echo "WALTER SIGNED"
+cd WALTER_1998_SIGNED
+bash run_tests.sh
+cd ..
+echo "WALTER SIGNED DONE"
+
+echo "WALTER SIGNED SMALL"
+cd WALTER_1998_SIGNED
+bash run_tests_small.sh
+cd ..
+echo "WALTER SIGNED SMALL DONE"
+
+echo "GRIMM SIGNED"
+cd GRIMM_REVERSALS
+bash run_grimm.sh
+cd ..
+echo "GRIMM SIGNED DONE"
+
+echo "GRIMM SIGNED SMALL"
+cd GRIMM_REVERSALS
+bash run_grimm_small.sh
+cd ..
+echo "GRIMM SIGNED DONE SMALL"
